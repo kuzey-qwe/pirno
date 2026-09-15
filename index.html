@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Editable Website</title>
+    <style>
+        /* EDIT THE THEME COLOR HERE */
+        :root {
+            --bg-color: #e0f2fe; /* Light blue hex code */
+            --text-color: #0f172a;
+            --card-color: #ffffff;
+            --accent-color: #0284c7;
+        }
+
+        body {
+            font-family: sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-color);
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: var(--accent-color);
+            margin-top: 0;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to My Website</h1>
+        <p>This is a simple HTML5 template with an editable light blue theme.</p>
+        
+        <!-- Link Examples -->
+        <p>Visit an external site: <a href="https://google.com">Go to Google</a></p>
+        <p>Open a link in a new tab: <a href="https://wikipedia.org" target="_blank">Open Wikipedia</a></p>
+    </div>
+
+</body>
+</html>
